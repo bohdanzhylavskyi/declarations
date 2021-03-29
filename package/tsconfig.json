@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "declaration": true,
+    "esModuleInterop": true,
+    //    "declarationDir": "../external/dts",
+//    "declarationMap": true,
+    "rootDir": ".",
+    "outDir": "../external/dist",
+    "noResolve": false,
+//    "paths": {
+//      "Tasko": ["./@types/task/index.d.ts"]
+//    }
+    //    "typeRoots": [
+//      "@types"
+//    ]
+  },
+  "files": [
+    "src/main.ts",
+    "@types/task/index.d.ts"
+  ]
+}

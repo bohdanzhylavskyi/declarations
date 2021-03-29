@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS"
+  },
+  "files": [
+    "test.ts"
+  ],
+  "include": [
+    "test.ts",
+    "dist/main.d.ts"
+  ]
+}
